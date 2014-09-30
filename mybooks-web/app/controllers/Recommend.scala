@@ -6,7 +6,7 @@ import play.api.mvc._
 object Recommend extends Controller {
 
     def today = Action {
-        Ok(views.html.index("Let's supply books info..."))
+        Ok(views.html.recommend("仕事は楽しいかね"))
     }
 
 }
