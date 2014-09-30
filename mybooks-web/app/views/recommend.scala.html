@@ -2,4 +2,9 @@
 
 @main(book.title + " ~今日おすすめの一冊~") {
     <h1>@book.title</h1>
+
+    <a href="@book.link">
+        <img src="@book.imageUrl" alt="@book.title">
+        <p>@book.description</p>
+    </a>
 }
