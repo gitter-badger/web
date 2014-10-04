@@ -1,8 +1,8 @@
 {
-    default : {
-        title : "仕事は楽しいかね",
-        description : "本書は、将来への希望もなく日々仕事に追われる主人公が、老人のアドバイスに自己変革のアイデアを見いだしていく物語である。それは、唐突に繰り出される老人の言葉とそれを問いただす「私」の会話で展開していく。たとえば老人は「目標を立てるな」という。",
-        link : "http://amazon.co.jp/o/ASIN/4877710787/shoma2da-22",
-        imageUrl : "http://ecx.images-amazon.com/images/I/717z8keSY7L.jpg"
+    "default" : {
+        "title" : "仕事は楽しいかね",
+        "description" : "本書は、将来への希望もなく日々仕事に追われる主人公が、老人のアドバイスに自己変革のアイデアを見いだしていく物語である。それは、唐突に繰り出される老人の言葉とそれを問いただす「私」の会話で展開していく。たとえば老人は「目標を立てるな」という。",
+        "link" : "http://amazon.co.jp/o/ASIN/4877710787/shoma2da-22",
+        "imageUrl" : "http://ecx.images-amazon.com/images/I/717z8keSY7L.jpg"
     }
 }
