@@ -15,6 +15,8 @@ object Book {
     def load = {
         def jsonString = Source.fromFile("./app/assets/recommends.json").mkString
         def json = Json.parse(jsonString)
+
+        //デフォルトの本を読み込み
         Book(
             title = (json \ "default" \ "title").as[String],
             description = ((json \ "default" \ "description").as[String]),
