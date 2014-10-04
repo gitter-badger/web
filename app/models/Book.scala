@@ -13,7 +13,7 @@ case class Book(
 
 object Book {
     def load = {
-        def jsonString = Source.fromFile("./app/assets/recommends.json").mkString
+        def jsonString = Source.fromFile("./app/assets/recommends.json", "UTF-8").mkString
         def json = Json.parse(jsonString)
 
         //デフォルトの本を読み込み
