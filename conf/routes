@@ -3,7 +3,7 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
+GET     /                           controllers.Recommend.today
 GET     /recommend/today            controllers.Recommend.today
 
 # Map static resources from the /public folder to the /assets URL path
