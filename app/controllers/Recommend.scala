@@ -9,7 +9,8 @@ import java.util.Date
 object Recommend extends Controller {
 
     def today = Action {
-        Ok(views.html.recommend(Book.load, new Date()))
+        def today = new Date()
+        Ok(views.html.recommend(Book.load(today), today))
     }
 
 }
