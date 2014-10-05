@@ -7,7 +7,7 @@
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2 mt">
                     <h1 class="animation slideDown" style="margin-top:-60px">@("%tY/%<tm/%<td" format date)のおすすめ本</h1>
-                    <a href="@book.link" target="_blank">
+                    <a href="@book.link" target="_blank" onclick="ga('send', 'event', 'recommend_book', 'click');">
                         <img width="350" class="img-responsive" src="@book.imageUrl" alt="@book.title" style="margin-top:20px" />
                         <div class="row mt">
                             <div class="col-lg-8 col-lg-offset-2" style="color:#FFF; margin-top:-20px; margin-bottom:-60px">
