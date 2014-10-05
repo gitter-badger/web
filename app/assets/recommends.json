@@ -13,10 +13,46 @@
             "imageUrl" : "http://ecx.images-amazon.com/images/I/51bV4LqNq6L.jpg"
         },
         "2014-10-06" : {
-            "title" : "",
-            "description" : "",
-            "link" : "",
-            "imageUrl" : ""
+            "title" : "自分の小さな「箱」から脱出する方法",
+            "description" : "身の周りの人間関係は実はすべて自分が原因で引き起こしていることに気づかせてくれる『自分の小さな「箱」から脱出する方法』。本書を読み進めるうちに家庭や職場での人間関係を深め十分な成果を出せる環境を作る方法を学べる。全米ビジネス書ベストセラー",
+            "link" : "http://www.amazon.co.jp/gp/product/4479791779/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4479791779&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/71g0DkP4VIL.jpg"
+        },
+        "2014-10-07" : {
+            "title" : "チーズはどこへ消えた?",
+            "description" : "この小さな本が世界のビジネスマンを変えてゆく！迷路のなかに住む、2匹のネズミと2人の小人。彼らは迷路をさまよった末、チーズを発見する。チーズは、ただの食べ物ではなく、人生において私たちが追い求めるもののシンボルである。ところがある日、そのチーズが消えた！ネズミたちは、本能のままにすぐさま新しいチーズを探しに飛び出していく。ところが小人たちは...",
+            "link" : "http://www.amazon.co.jp/gp/product/459403019X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=459403019X&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/41X08M5EC2L.jpg"
+        },
+        "2014-10-08" : {
+            "title" : "金持ち父さん貧乏父さん",
+            "description" : "パーソナルファイナンス専門の作家で大学講師でもあるロバート・キヨサキが、全く違うタイプである2人の人物の影響を受けて構築した、ユニークな経済論を展開している。1人は高学歴なのに収入が不安定な彼自身の父親、そしてもう1人は親友の父親で、13才のとき学校を中退した億万長者である。",
+            "link" : "http://www.amazon.co.jp/gp/product/4480863303/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4480863303&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/41QW070X4CL.jpg"
+        },
+        "2014-10-09" : {
+            "title" : "金持ち父さん貧乏父さん",
+            "description" : "パーソナルファイナンス専門の作家で大学講師でもあるロバート・キヨサキが、全く違うタイプである2人の人物の影響を受けて構築した、ユニークな経済論を展開している。1人は高学歴なのに収入が不安定な彼自身の父親、そしてもう1人は親友の父親で、13才のとき学校を中退した億万長者である。",
+            "link" : "http://www.amazon.co.jp/gp/product/4480863303/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4480863303&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/41QW070X4CL.jpg"
+        },
+        "2014-10-10" : {
+            "title" : "プレゼンテーションZEN",
+            "description" : "聴衆と自分にとって分かり易い、「抑制」・「シンプル」・「自然さ」を心がけた、効果的なプレゼンテーションのための原則や概念、創造的なアイデア、実例などをバランスよく提供。従来のパワーポイント中心のプレゼンテーションに異議を唱え、プレゼンテーションの実施やデザインに発想の転換を促す注目の1冊である。",
+            "link" : "http://www.amazon.co.jp/gp/product/462106603X/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=462106603X&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/81tHw7ZdIrL.jpg"
+        },
+        "2014-10-11" : {
+            "title" : "15分あれば喫茶店に入りなさい。",
+            "description" : "スタバ、タリーズ、ドトール…喫茶店(カフェ)は仕事の主戦場だ。30分で1時間分をこなす、効率・集中力倍増術。",
+            "link" : "http://www.amazon.co.jp/gp/product/4344018664/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4344018664&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/518k7AWRtPL.jpg"
+        },
+        "2014-10-12" : {
+            "title" : "ハーバードの自分を知る技術 悩めるエリートたちの人生戦略ロードマップ",
+            "description" : "「自分は何がしたいのか、本当にわかっていますか?」あなたにとって「成功」とは何ですか? それをどうやって手に入れますか?",
+            "link" : "http://www.amazon.co.jp/gp/product/4484141116/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4484141116&linkCode=as2&tag=mybooks-web-22",
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/9142113DhSL.jpg"
         }
     }
 }
