@@ -542,14 +542,14 @@ google.bookmarkbubble.Bubble.prototype.build_ = function() {
 
   var bubbleInner = document.createElement('div');
   bubbleInner.style.position = 'relative';
-  bubbleInner.style.width = '214px';
-  bubbleInner.style.margin = isIpad ? '0 0 0 82px' : '0 auto';
-  bubbleInner.style.border = '2px solid #fff';
+  bubbleInner.style.width = '250px';
+  bubbleInner.style.margin = isIpad ? '0 0 0 400px' : '0 auto';
+  bubbleInner.style.border = '2px solid #b0c8ec';
   bubbleInner.style.padding = '20px 20px 20px 10px';
   bubbleInner.style.WebkitBorderRadius = '8px';
   bubbleInner.style.WebkitBoxShadow = '0 0 8px rgba(0, 0, 0, 0.7)';
   bubbleInner.style.WebkitBackgroundSize = '100% 8px';
-  bubbleInner.style.backgroundColor = '#b0c8ec';
+  bubbleInner.style.backgroundColor = '#fff';
   bubbleInner.style.background = '#cddcf3 -webkit-gradient(linear, ' +
       'left bottom, left top, ' + isIpad ?
           'from(#cddcf3), to(#b3caed)) no-repeat top' :
@@ -562,8 +562,9 @@ google.bookmarkbubble.Bubble.prototype.build_ = function() {
   if (this.getIosVersion_() >= this.getVersion_(4, 2)) {
     bubbleInner.innerHTML = 'このWebアプリをインストールしましょう。矢印をタップして<b>\'ホーム画面に追加\'<b>';
   } else {
-    bubbleInner.innerHTML = 'このWebアプリをインストールしましょう。<b style="font-size:15px">+</b>をタップして<b>\'ホーム画面に追加\'<b>';
+    bubbleInner.innerHTML = 'このWebアプリをインストールしましょう。矢印をタップして<b>\'ホーム画面に追加\'<b>';
   }
+  bubbleInner.innerHTML = '今日のおすすめの本を確認しましょう。矢印をタップして<b>\'ホーム画面に追加\'<b>';
 
   var icon = document.createElement('div');
   icon.style['float'] = 'left';
@@ -578,28 +579,45 @@ google.bookmarkbubble.Bubble.prototype.build_ = function() {
   bubbleInner.insertBefore(icon, bubbleInner.firstChild);
 
   var arrow = document.createElement('div');
-  arrow.style.backgroundImage = 'url(' + this.IMAGE_ARROW_DATA_URL_ + ')';
-  arrow.style.width = '25px';
-  arrow.style.height = '19px';
-  arrow.style.position = 'absolute';
-  arrow.style.left = '111px';
+  arrow.style.background = '#ffffff';
+  arrow.style.border = '2px solid #b0c8ec';
+  arrow.style.borderTop = 'none';
+  arrow.style.borderLeft = 'none';
+  arrow.style.width = '15px';
+  arrow.style.height = '15px';
   if (isIpad) {
-    arrow.style.WebkitTransform = 'rotate(180deg)';
-    arrow.style.top = '-19px';
+    arrow.style.WebkitTransform = 'rotate(225deg)';
+    arrow.style.top = '-10px';
+    arrow.style.left = '218px';
   } else {
-    arrow.style.bottom = '-19px';
+    arrow.style.WebkitTransform = 'rotate(45deg)';
+    arrow.style.bottom = '-10px';
+    arrow.style.left = '115px';
   }
+
+  arrow.style.position = 'absolute';
   bubbleInner.appendChild(arrow);
+  //arrow.style.backgroundImage = 'url(' + this.IMAGE_ARROW_DATA_URL_ + ')';
+  //arrow.style.width = '25px';
+  //arrow.style.height = '19px';
+  //arrow.style.position = 'absolute';
+  //arrow.style.left = '111px';
+  //if (isIpad) {
+  //  arrow.style.WebkitTransform = 'rotate(180deg)';
+  //  arrow.style.top = '-19px';
+  //} else {
+  //  arrow.style.bottom = '-19px';
+  //}
+  //bubbleInner.appendChild(arrow);
 
   var close = document.createElement('a');
   close.onclick = google.bind(this.closeClickHandler_, this);
   close.style.position = 'absolute';
   close.style.display = 'block';
-  close.style.top = '-3px';
-  close.style.right = '-3px';
+  close.style.top = '5px';
+  close.style.right = '5px';
   close.style.width = '16px';
   close.style.height = '16px';
-  close.style.border = '10px solid transparent';
   close.style.background =
       'url(' + this.IMAGE_CLOSE_DATA_URL_ + ') no-repeat';
   bubbleInner.appendChild(close);
